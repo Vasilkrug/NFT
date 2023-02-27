@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  
+  .burger-menu {
+   
+    @media (min-width: 850px) {
+      display: none;
+    }
+  }
+}
