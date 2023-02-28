@@ -1,6 +1,7 @@
 import './App.scss';
 import Header from './components/header/Header';
 import HeroSection from './components/heroSection/HeroSection';
+import TrendingCollections from "./components/trendingCollections/TrendingCollections";
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
             <Header/>
             <main>
                 <HeroSection/>
+                <TrendingCollections/>
             </main>
         </div>
     );
