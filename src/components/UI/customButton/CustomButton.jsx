@@ -1,9 +1,9 @@
 import React from 'react';
 import './CustomButton.scss';
 
-const CustomButton = ({icon, text}) => {
+const CustomButton = ({icon, text,style}) => {
     return (
-        <button className={'custom-button'}>
+        <button style={style} className={'custom-button'}>
             <img src={icon} alt='icon'/>
             <span>{text}</span>
         </button>

@@ -1,20 +1,109 @@
 .hero-section {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   gap: 30px;
 
+  @media (max-width: 885px) {
+    padding: 0 20px;
+  }
+  @media (max-width: 680px) {
+    flex-direction: column;
+  }
+
   h1 {
-    font-family: 'Work Sans',sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 67px;
     line-height: 110%;
     text-transform: capitalize;
+    margin-bottom: 20px;
+
+    @media (max-width: 885px) {
+      font-size: 38px;
+    }
   }
+
   .hero-description {
-    flex:1 1 48%;
+    flex: 1 1 48%;
+
+    p {
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 160%;
+      text-transform: capitalize;
+      margin-bottom: 30px;
+      @media (max-width: 885px) {
+        font-size: 16px;
+      }
+    }
+
+    button {
+      margin-bottom: 30px;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: 30px;
+
+      .hero-stat-item {
+        p {
+          font-family: 'Space Mono', monospace;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 140%;
+          margin-bottom: 0;
+          @media (max-width: 885px) {
+            font-size: 22px;
+          }
+        }
+
+        span {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 160%;
+          @media (max-width: 885px) {
+            font-size: 16px;
+          }
+        }
+      }
+
+    }
   }
+
   .hero-image {
-    flex:1 1 48%;
+    flex: 1 1 48%;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+
+    .hero-image-title {
+      padding: 20px;
+
+      p {
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 140%;
+        margin-bottom: 12px;
+      }
+
+      span {
+        font-family: 'Work Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+      }
+
+      img {
+        margin-right: 12px;
+      }
+    }
+
   }
+
 }

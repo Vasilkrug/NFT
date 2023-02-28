@@ -1,13 +1,12 @@
 .header {
   display: flex;
   align-items: center;
-  padding: 20px 50px;
+  padding: 20px 20px;
   position: relative;
   margin-bottom: 80px;
   
   .burger-menu {
-   
-    @media (min-width: 850px) {
+    @media (min-width: 864px) {
       display: none;
     }
   }
