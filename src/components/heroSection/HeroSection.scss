@@ -1,0 +1,20 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  h1 {
+    font-family: 'Work Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+    text-transform: capitalize;
+  }
+  .hero-description {
+    flex:1 1 48%;
+  }
+  .hero-image {
+    flex:1 1 48%;
+  }
+}
