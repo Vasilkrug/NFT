@@ -1,0 +1,19 @@
+.top-creators {
+
+  .top-creators-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 885px) {
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+  }
+
+  .creators-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-gap: 30px;
+  }
+}
