@@ -1,0 +1,33 @@
+.how-it-work-card {
+  background-color: #3B3B3B;
+  padding: 10px 30px 30px;
+  border-radius: 20px;
+  text-align: center;
+
+  @media (max-width: 858px) {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  img {
+    margin-bottom: 40px;
+    @media (max-width: 858px) {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 0;
+    }
+  }
+
+  .how-it-work-info {
+    @media (max-width: 858px) {
+      text-align: left;
+    }
+
+    h4 {
+      margin-bottom: 10px;
+    }
+  }
+
+
+}
