@@ -4,7 +4,7 @@ import './CustomButton.scss';
 const CustomButton = ({icon, text,style}) => {
     return (
         <button style={style} className={'custom-button'}>
-            <img src={icon} alt='icon'/>
+            {icon ? <img src={icon} alt='icon'/> : null}
             <span>{text}</span>
         </button>
     );
