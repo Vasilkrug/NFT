@@ -1,0 +1,58 @@
+.creator-card {
+  background-color: #3B3B3B;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  font-family: 'Work Sans', sans-serif;
+
+  @media (max-width: 819px) {
+    flex-direction: row;
+  }
+
+  .creator-rank {
+    background-color: #2B2B2B;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    @media (max-width: 819px) {
+      top: 20px;
+    }
+  }
+
+  .creator-image {
+
+    @media (max-width: 819px) {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .creator-info {
+
+    h4 {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 140%;
+      text-align: center;
+      @media (max-width: 819px) {
+        text-align: left;
+      }
+    }
+
+    span {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #858584;
+    }
+  }
+}
