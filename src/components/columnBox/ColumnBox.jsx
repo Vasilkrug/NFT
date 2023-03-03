@@ -1,9 +1,9 @@
 import React from 'react';
 import './ColumnBox.scss';
 
-const ColumnBox = ({classname,children,title}) => {
+const ColumnBox = ({classname = '',children,title}) => {
     return (
-        <div className={classname ? classname : ''}>
+        <div className={classname}>
             <div className={'column-box-title'}>{title}</div>
             <div className={'column-box-body'}>
                 {children}

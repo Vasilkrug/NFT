@@ -24,11 +24,11 @@ const Footer = () => {
                 <ColumnBox title={'Explore'}>
                     <Nav classname={'footer-nav'}/>
                 </ColumnBox>
-                <ColumnBox title={'Join our weekly digest'}>
+                <ColumnBox title={'Join our weekly digest'} classname={'weekly-digest'}>
                     <p>Get exclusive promotions & updates<br/> straight to your inbox.</p>
                     <div className={'subscribe'}>
                         <CustomInput style={{width:'100%'}} placeholder={'Enter your email here'}/>
-                        <CustomButton  text={'Subscribe'}/>
+                        <CustomButton text={'Subscribe'}/>
                     </div>
                 </ColumnBox>
             </section>

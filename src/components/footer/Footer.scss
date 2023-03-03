@@ -19,19 +19,41 @@
     display: flex;
     justify-content: space-between;
 
+    @media (max-width: 847px) {
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 20px;
+    }
+
+    .weekly-digest {
+      flex-basis: 40%;
+    }
+
     .subscribe {
       position: relative;
-
-      button {
-        position: absolute;
-        top: 0;
-        right: -32%;
-        bottom: 0;
-        padding: 20px 30px;
+      @media (max-width: 400px) {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
       }
 
       input {
-        padding-right: 50px;
+        @media (min-width: 400px) {
+          padding-right: 150px;
+        }
+      }
+
+      button {
+        display: flex;
+        justify-content: center;
+
+        @media (min-width: 400px) {
+          position: absolute;
+          right: 0;
+          top: -1px;
+        }
       }
     }
   }
