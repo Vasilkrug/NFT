@@ -1,0 +1,43 @@
+.magic-mashroom {
+  width: 100%;
+  height: 600px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #A259FF 100%), url("../../assets/images/mashroom.png") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+
+  .auction-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-basis: 40%;
+
+    .auction-user {
+      background-color: #3B3B3B;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      width: 150px;
+      border-radius: 20px;
+      padding: 11px 20px;
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    .auction-title {
+      h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 120%;
+      }
+    }
+  }
+}

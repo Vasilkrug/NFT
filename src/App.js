@@ -5,6 +5,7 @@ import TrendingCollections from "./components/trendingCollections/TrendingCollec
 import TopCreatorsList from "./components/topCreatorsList/topCreatorsList";
 import HowItWorks from "./components/howitWorks/HowItWorks";
 import Footer from "./components/footer/Footer";
+import MagicMashRoom from "./components/magicMashRoom/MagicMashRoom";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <HeroSection/>
                 <TrendingCollections/>
                 <TopCreatorsList/>
+                <MagicMashRoom/>
                 <HowItWorks/>
             </main>
             <Footer/>
