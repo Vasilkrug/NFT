@@ -13,6 +13,20 @@ main {
   max-width: 1280px;
   margin: 0 auto;
 
+  h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+    @media (max-width: 885px) {
+      font-size: 38px;
+    }
+  }
+
   section {
     max-width: 1050px;
     margin: 0 auto 150px auto;

@@ -1,0 +1,38 @@
+.flex-box {
+  display: flex;
+  margin-bottom: 80px;
+  gap: 50px;
+  padding: 0 20px;
+
+  @media (max-width: 670px) {
+    flex-direction: column;
+  }
+
+  .img-box {
+    flex-basis: 50%;
+
+    img {
+      border-radius: 20px;
+      height: 80%;
+      width: 100%;
+    }
+  }
+
+  .content-box {
+    flex-basis: 50%;
+
+    .content-box-title {
+      margin-bottom: 40px;
+
+      p {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 160%;
+      }
+    }
+
+    .content-box-body {
+      max-width: 320px;
+    }
+  }
+}
