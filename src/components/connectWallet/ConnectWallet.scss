@@ -1,0 +1,13 @@
+.connect-wallet {
+  .connect-wallet-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    button {
+      background-color: #3B3B3B;
+      border: 2px solid #A259FF;
+      width: 100%;
+    }
+  }
+}
