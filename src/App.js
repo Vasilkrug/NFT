@@ -1,22 +1,17 @@
 import './App.scss';
 import Header from './components/header/Header';
-import HeroSection from './components/heroSection/HeroSection';
-import TrendingCollections from "./components/trendingCollections/TrendingCollections";
-import TopCreatorsList from "./components/topCreatorsList/topCreatorsList";
-import HowItWorks from "./components/howitWorks/HowItWorks";
 import Footer from "./components/footer/Footer";
-import MagicMashRoom from "./components/magicMashRoom/MagicMashRoom";
+import Home from "./pages/home/Home";
+import {Route, Routes} from "react-router-dom";
 
 function App() {
     return (
         <div className={'App'}>
             <Header/>
             <main>
-                <HeroSection/>
-                <TrendingCollections/>
-                <TopCreatorsList/>
-                <MagicMashRoom/>
-                <HowItWorks/>
+                <Routes>
+                    <Route path={'/'} element={<Home/>}/>
+                </Routes>
             </main>
             <Footer/>
         </div>

@@ -1,13 +1,14 @@
 import React from 'react';
 import './Nav.scss';
+import {NavLink} from "react-router-dom";
 
 const Nav = ({activeMenu,children,classname}) => {
 
     return (
         <nav className={`nav ${activeMenu ? 'active' : ''} ${classname ? classname : ''}`}>
-            <a href="">Marketplace</a>
-            <a href="">Rankings</a>
-            <a href="">Connect a wallet</a>
+            <NavLink to="/marketplace">Marketplace</NavLink>
+            <NavLink to="/rankings">Rankings</NavLink>
+            <NavLink to="/wallet">Connect a wallet</NavLink>
             {children}
         </nav>
     );
