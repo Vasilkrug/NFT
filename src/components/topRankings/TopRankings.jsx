@@ -1,7 +1,6 @@
 import React from 'react';
+import {SectionTitle, Table} from '../index';
 import './TopRankings.scss';
-import SectionTitle from "../sectionTitle/SectionTitle";
-import Table from "../Table/Table";
 
 const TopRankings = () => {
     return (

@@ -1,9 +1,9 @@
 import React from 'react';
+import {CustomButton} from "../index";
+import {avatar, rocket} from '../../assets/icons/icons';
+import {hero} from '../../assets/images/images';
+import {heroData} from './heroData';
 import './HeroSection.scss';
-import CustomButton from "../UI/customButton/CustomButton";
-import {avatar, rocket} from "../../assets/icons/icons";
-import {hero} from "../../assets/images/images";
-import {heroData} from "./heroData";
 
 const HeroSection = () => {
     return (
@@ -15,7 +15,7 @@ const HeroSection = () => {
                         artists.</p>
                 </div>
                 <div className={'hero-btn'}>
-                    <CustomButton style={{padding:'20px 50px'}} icon={rocket} text={'Get Started'}/>
+                    <CustomButton style={{padding: '20px 50px'}} icon={rocket} text={'Get Started'}/>
                 </div>
                 <div className={'hero-stats'}>
                     {heroData.map(item => {

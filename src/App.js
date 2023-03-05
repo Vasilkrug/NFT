@@ -1,12 +1,7 @@
+import {Header, Footer} from './components/index';
+import {Home, Wallet, Login, MarketPlace, Rankings} from './pages/index';
+import {Route, Routes} from 'react-router-dom';
 import './App.scss';
-import Header from './components/header/Header';
-import Footer from "./components/footer/Footer";
-import Home from "./pages/home/Home";
-import {Route, Routes} from "react-router-dom";
-import Wallet from "./pages/wallet/Wallet";
-import Login from "./pages/login/Login";
-import MarketPlace from "./pages/marketplace/MarketPlace";
-import Rankings from "./pages/rankings/Rankings";
 
 function App() {
     return (

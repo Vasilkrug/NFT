@@ -1,6 +1,6 @@
 import React from 'react';
+import {creators} from '../topCreatorsList/creatorsData';
 import './Table.scss';
-import {creators} from "../topCreatorsList/creatorsData";
 
 const Table = () => {
     return (

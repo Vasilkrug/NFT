@@ -1,8 +1,7 @@
 import React from 'react';
-import './HowItWorks.scss';
-import SectionTitle from "../sectionTitle/SectionTitle";
+import {SectionTitle, HowItWorkItem} from '../index';
 import {howItWorksData} from "./howItWorksData";
-import HowItWorkItem from "../howItWorksItem/HowItWorkItem";
+import './HowItWorks.scss';
 
 const HowItWorks = () => {
     return (

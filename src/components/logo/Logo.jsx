@@ -1,7 +1,7 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
+import {logo} from '../../assets/icons/icons';
 import './Logo.scss';
-import {logo} from "../../assets/icons/icons";
-import {NavLink} from "react-router-dom";
 
 const Logo = () => {
     return (

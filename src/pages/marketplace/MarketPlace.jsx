@@ -1,5 +1,5 @@
 import React from 'react';
-import BrowseMarketPlace from "../../components/browseMarketPlace./BrowseMarketPlace";
+import {BrowseMarketPlace} from '../../components/index';
 
 const MarketPlace = () => {
     return (

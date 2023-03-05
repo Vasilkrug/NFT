@@ -1,6 +1,5 @@
 import React from 'react';
-import FlexBox from "../../components/flexBox/FlexBox";
-import Form from "../../components/form/Form";
+import {FlexBox, Form} from '../../components/index';
 import {loginBgImage} from "../../assets/images/images";
 
 const Login = () => {

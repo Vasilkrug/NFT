@@ -1,7 +1,7 @@
 import React from 'react';
+import {CustomButton} from '../index';
+import {coinBase, fox, walletConnect} from '../../assets/icons/icons';
 import './ConnectWallet.scss';
-import CustomButton from "../UI/customButton/CustomButton";
-import {coinBase, fox, walletConnect} from "../../assets/icons/icons";
 
 const ConnectWallet = () => {
     return (

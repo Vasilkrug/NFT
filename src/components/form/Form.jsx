@@ -1,7 +1,6 @@
 import React from 'react';
+import {CustomInput, CustomButton} from '../index'
 import './Form.scss';
-import CustomInput from "../UI/customInput/CustomInput";
-import CustomButton from "../UI/customButton/CustomButton";
 
 const Form = () => {
     return (

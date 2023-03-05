@@ -11,7 +11,7 @@ const TrendingItem = ({title, images, userIcon, user}) => {
                     </div>
                 })}
             </div>
-            <div className="collection-card-user">
+            <div className={'collection-card-user'}>
                 <p>{title}</p>
                 <img src={userIcon} alt="user-icon"/>
                 <span>{user}</span>

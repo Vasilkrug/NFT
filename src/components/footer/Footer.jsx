@@ -1,11 +1,7 @@
 import React from 'react';
+import {Logo, ColumnBox, Nav, CustomInput, CustomButton} from '../index';
+import {discord, instagram, twitter, youtube} from '../../assets/icons/icons';
 import './Footer.scss';
-import Logo from "../logo/Logo";
-import ColumnBox from "../columnBox/ColumnBox";
-import {discord, instagram, twitter, youtube} from "../../assets/icons/icons";
-import Nav from "../nav/Nav";
-import CustomInput from "../UI/customInput/CustomInput";
-import CustomButton from "../UI/customButton/CustomButton";
 
 const Footer = () => {
     return (
@@ -27,7 +23,7 @@ const Footer = () => {
                 <ColumnBox title={'Join our weekly digest'} classname={'weekly-digest'}>
                     <p>Get exclusive promotions & updates<br/> straight to your inbox.</p>
                     <div className={'subscribe'}>
-                        <CustomInput style={{width:'100%'}} placeholder={'Enter your email here'}/>
+                        <CustomInput style={{width: '100%'}} placeholder={'Enter your email here'}/>
                         <CustomButton text={'Subscribe'}/>
                     </div>
                 </ColumnBox>

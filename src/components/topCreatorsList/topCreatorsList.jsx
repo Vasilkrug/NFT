@@ -1,10 +1,8 @@
 import React from 'react';
+import {SectionTitle, CustomButton, CreatorItem} from '../index';
+import {rocket} from '../../assets/icons/icons';
+import {creators} from './creatorsData';
 import './topCreatorsList.scss';
-import SectionTitle from "../sectionTitle/SectionTitle";
-import CustomButton from "../UI/customButton/CustomButton";
-import {rocket} from "../../assets/icons/icons";
-import {creators} from "./creatorsData";
-import CreatorItem from "../creatorItem/CreatorItem";
 
 const TopCreatorsList = () => {
     return (

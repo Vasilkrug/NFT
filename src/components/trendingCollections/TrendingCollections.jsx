@@ -1,8 +1,7 @@
 import React from 'react';
+import {SectionTitle, TrendingList} from '../index';
+import {trendingsData} from './trendingsData';
 import './TrendingCollections.scss';
-import SectionTitle from "../sectionTitle/SectionTitle";
-import {trendingsData} from "./trendingsData";
-import TrendingList from "../trendingList/TrendingList";
 
 const TrendingCollections = () => {
 

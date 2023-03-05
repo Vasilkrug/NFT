@@ -1,5 +1,5 @@
 import React from 'react';
-import TopRankings from "../../components/topRankings/TopRankings";
+import {TopRankings} from '../../components/index';
 
 const Rankings = () => {
     return (
