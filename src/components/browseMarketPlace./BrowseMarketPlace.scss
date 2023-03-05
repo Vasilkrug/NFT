@@ -1,0 +1,22 @@
+.browse-marketplace {
+
+  .marketplace-search {
+    margin-bottom: 50px;
+
+    input {
+      width: 100%;
+      background: #2B2B2B url("../../assets/icons/search.png") no-repeat 97%;
+      border: 1px solid #3B3B3B;
+      color: #858584;
+      padding-right: 70px;
+    }
+  }
+
+  .marketplace-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
